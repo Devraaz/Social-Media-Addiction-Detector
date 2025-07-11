@@ -49,12 +49,12 @@ The system analyzes user inputs like age, gender, academic level, daily screen t
 
 ## 📂 File Structure
 
-├── app.py # Main Streamlit application
-├── sm_df.pkl # Original training DataFrame (for encoding)
-├── le.pkl # LabelEncoder for consistent encoding
-├── m1_lr.pkl # Trained Linear Regression model
-├── m2_lr.pkl # Trained Logistic Regression model
-├── README.md # Project documentation
+- app.py # Main Streamlit application
+- sm_df.pkl # Original training DataFrame (for encoding)
+- le.pkl # LabelEncoder for consistent encoding
+- m1_lr.pkl # Trained Linear Regression model
+- m2_lr.pkl # Trained Logistic Regression model
+- README.md # Project documentation
 
 ---
 
