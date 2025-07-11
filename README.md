@@ -81,33 +81,23 @@ streamlit run app.py
 
 🧾 Example Prediction
 Input:
-
-Age: 22
-
-Gender: Female
-
-Screen Time: 6 hrs/day
-
-Sleep: 5 hrs/night
-
-Mental Health Score: 4/10
+- Age: 22
+- Gender: Female
+- Screen Time: 6 hrs/day
+- Sleep: 5 hrs/night
+- Mental Health Score: 4/10
 
 Output:
-
-Addiction Score: 8
-
-Academic Impact: Yes
-
-Message: "High usage detected. You may be developing an addiction. Consider reducing usage and engaging in offline activities."
+- Addiction Score: 8
+- Academic Impact: Yes
+- Message: "High usage detected. You may be developing an addiction. Consider reducing usage and engaging in offline activities."
 
 🔮 Future Enhancements
-Add model accuracy metrics and confidence levels
 
-Visualizations for addiction trends
-
-Save user history to track progress
-
-Deploy on Hugging Face Spaces or AWS
+- Add model accuracy metrics and confidence levels
+- Visualizations for addiction trends
+- Save user history to track progress
+- Deploy on Hugging Face Spaces or AWS
 
 📜 License
 This project is intended for educational and research purposes only.
@@ -117,6 +107,3 @@ Devraj Dora
 
 Feel free to reach out for collaboration or questions.
 
----
-
-Let me know if you want the README to include a GIF preview or embed a YouTube walkthrough as well!
