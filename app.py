@@ -1,12 +1,14 @@
 import streamlit as st
 import pickle 
 import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+le = LabelEncoder()
 
 # Importing Pickle File
 with open('sm_df.pkl', 'rb') as file:
     sm_df = pickle.load(file)
-with open('le.pkl', 'rb') as file:
-    le = pickle.load(file)
+
 with open('m1_lr.pkl', 'rb') as file:   # m1 is Linear Regression
     m1_lr = pickle.load(file)
 with open('m2_lr.pkl', 'rb') as file:   # m2 is Logistic Regression
