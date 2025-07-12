@@ -41,7 +41,7 @@ def main():
     with col2:
         Avg_Daily_Usage_Hours = st.number_input("Enter Daily Screen Time (in hours): ",min_value=1, max_value=24)
         Most_Used_Platform = st.selectbox("Enter Most Used Platform: ", 
-                            ("Instagram", "TikTok", "Facebook", "WhatsApp", "Twitter", "LinkedIn", "WeChat","Snapchat", "YouTube"))
+                            ("Instagram","WhatsApp", "TikTok", "Facebook",  "Twitter", "LinkedIn", "WeChat","Snapchat", "YouTube"))
         Sleep_Hours_Per_Night = st.number_input("Enter Sleep hours per night: ",min_value=1, max_value=20)
 
     with col3:
